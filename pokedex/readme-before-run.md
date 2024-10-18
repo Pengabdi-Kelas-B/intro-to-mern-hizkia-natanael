@@ -8,11 +8,6 @@ Pokedex adalah aplikasi web yang menampilkan daftar Pokemon dengan fitur pencari
 - [Prasyarat](#prasyarat)
 - [Instalasi](#instalasi)
 - [Menjalankan Aplikasi](#menjalankan-aplikasi)
-- [Struktur Proyek](#struktur-proyek)
-- [Penggunaan](#penggunaan)
-- [Kontribusi](#kontribusi)
-- [Lisensi](#lisensi)
-
 ## Fitur
 
 - Menampilkan daftar Pokemon dengan gambar, nama, dan tipe.
@@ -33,3 +28,37 @@ Sebelum menjalankan aplikasi ini, pastikan Anda memiliki hal berikut:
    ```bash
    git clone https://github.com/username/repo-name.git
    cd repo-name
+
+2. **Instal dependensi:**
+
+   ```bash
+    Untuk backend, instal dependensi yang diperlukan:
+    cd backend
+    npm install
+    
+    Untuk frontend, instal dependensi yang diperlukan:
+    cd frontend
+    npm install
+
+
+## menjalankan-aplikasi
+
+1. **Menjalankan Backend**
+
+   ```bash
+    buka terminal dan gunakan git bash 
+    cd backend
+    npm run generate:db
+    npm start/lihat di file bernama package.json lihat bagian start
+
+    Server akan berjalan di http://localhost:3000
+
+2. **Menjalankan Frontend**
+
+   ```bash
+    buka terminal dan gunakan git bash 
+    cd frontend
+    periksa konektivitas antara html dan JavaScript 
+    Buka file index.html di browser
+    
+
